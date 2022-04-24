@@ -1,0 +1,79 @@
+:root {
+    
+    --violet: #353472;
+    --bleu: #F7FAFD;
+    --orange: #FFA318;
+    --calendar: #FDAE5C;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.violet {
+    color: var(--violet);
+}
+
+.top-container-right {
+    display: flex;
+}
+
+.top-container-left {
+    display: flex;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1em;
+    list-style: none;
+    
+}
+
+
+
+/*---------------------------------[ RESPONSIVE ]---------------------------------*/
+
+/* Desktop: 1024px */
+/* Tablet: 600px -> 1024px */
+/* Mobile: 320 -> 600px  */
+
+
+/* smartphone */
+@media screen and (min-width: 320px) and (max-width: 600px) {
+
+    body {
+        background-color: red;
+    }
+
+   
+
+    nav {
+        display: none;
+    }
+    
+}
+
+
+/* tablet */
+@media (min-device-width: 601) and (max-device-width: 1024px) {
+    
+
+
+}
+
+/* deskstop */
+@media (min-device-width: 1024px) {
+    button.burger-nav {
+        display: none;
+    }
+
+}
+

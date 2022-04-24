@@ -1,0 +1,29 @@
+All colors: 
+
+Bleu Marine: #353472
+Orange: #FFA318
+White: #FFFFFF
+Bleu light: #F7FAFD
+calendrier: #FDAE5C
+
+Bannière: 
+
+font family: rubik sans serif weight 400 
+background color : #FFFFFF
+background color - right side : #353472 (bleu marine)
+hover dans le texte #FFA318 (orange)
+
+
+Logo dans l'odre à droite de la bannière:
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-facebook-f"></i>
+<i class="fa-brands fa-twitter"></i>
+
+<i class="fa-solid fa-user"></i>
+
+Bannière de recherche:
+
+border des input noir
+input recherche = #FFA318 (orange)
+
+body bck color : #F7FAFD
