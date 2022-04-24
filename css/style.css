@@ -4,6 +4,7 @@
     --bleu: #F7FAFD;
     --orange: #FFA318;
     --calendar: #FDAE5C;
+    
 
 }
 
@@ -13,22 +14,16 @@ header {
     background-color: white;
 }
 
-.violet {
-    color: var(--violet);
+body {
+    background-image: url(/img/BROKE-AND-ABROAD-SENEGAL.jpg)
 }
 
-.top-container-right {
-    display: flex;
-}
+
+/* top container left */
 
 .top-container-left {
     display: flex;
     align-items: center;
-}
-
-
-ul {
-    display: flex;
 }
 
 nav ul li {
@@ -36,6 +31,76 @@ nav ul li {
     list-style: none;
     
 }
+
+ul {
+    display: flex;
+}
+
+.link-nav {
+    font-family: 'Rubik', sans-serif;
+    color: #040e27;
+}
+
+.link-nav:hover {
+    color: var(--orange);
+    transition: 0.3s;
+}
+
+.top-container-left a img {
+    margin-right: 1.5em;
+    width: 100px;
+
+}
+
+
+/* top container right */
+.top-container-right {
+    display: flex;
+    align-items: center;
+    
+}
+/* réseaux sociaux */
+.top-container-right .socialnetwork i {
+    margin: 11px;
+    color: var(--violet);
+    font-size: x-large;
+
+}
+
+.top-container-right .socialnetwork i:hover {
+    color: var(--orange); 
+    transition: 0.3s;
+}
+
+.top-container-right .socialnetwork {
+    margin-right: 40px;
+}
+
+/* ------------------ */
+
+.top-container-right .myaccount button i {
+    margin: 11px;
+    color: white;
+    font-size: x-large;
+   
+}
+.top-container-right .myaccount button {
+    border: none;
+    background-color: var(--violet);
+    cursor: pointer;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.top-container-right .myaccount {
+   width: 140px;
+   height: 150px;
+}
+
+/* --------------- */
+
+
 
 
 
@@ -47,33 +112,37 @@ nav ul li {
 
 
 /* smartphone */
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 1024px) {
 
-    body {
-        background-color: red;
+  
+    .burger-nav {
+        width: 80px;
+        background: none;
+        border: none;
     }
 
+    .burger-nav i {
+        font-size: x-large;
+        
+    }
    
 
-    nav {
+    nav, .socialnetwork {
         display: none;
     }
     
 }
 
 
-/* tablet */
-@media (min-device-width: 601) and (max-device-width: 1024px) {
-    
 
 
-}
 
 /* deskstop */
-@media (min-device-width: 1024px) {
+@media (min-device-width: 1025px) {
     button.burger-nav {
         display: none;
-    }
+        
 
+    } 
 }
 
