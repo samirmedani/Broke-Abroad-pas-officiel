@@ -111,17 +111,27 @@ ul {
     
     background-color: var(--newsletterbackground);
     padding: 100px 100px;
+
+    width: 100%;
 }
 
 .formNewsletter { 
     display: flex;
-}
-
-.ncInput {
-    display: flex;
-    flex-direction: column;
+    margin: 0 auto;
+    
     
 }
+
+
+
+
+
+.formcheck {
+
+    margin-right: 2em;
+    width: 380px;
+}
+
 
 
 .form-check {
@@ -129,6 +139,8 @@ ul {
     font-weight: 400;
     font-family: 'Rubik', sans-serif;
     color: white;
+    
+    
    
     
 }
@@ -138,15 +150,14 @@ ul {
     background-color: var(--lightorange);
 }
 
-.formcheck {
-
-    margin-top: 10px;
-    margin-right: 30px;
-}
 
 
 
 #mailInput {
+
+    margin-right: 2em;
+
+
     padding: 10px;
     padding-right: 150px;
     border: 1px solid white;
@@ -155,7 +166,7 @@ ul {
     font-size: 16px;
     font-weight: 300;
     background-color: var(--newsletterbackground);
-    margin-right: 2em;
+    
     
 
 }
@@ -218,8 +229,32 @@ ul {
 
     nav, .socialnetwork {
         display: none;
+    } 
+
+    .formNewsletter { 
+        display: flex;
+        flex-direction: column;
+        
+        
     }
-    
+
+    #mailInput  {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .formcheck {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .sentence-newsletter {
+        margin-bottom: 10px;
+    }
+
+    #subscribe {
+        width: 100%;
+    }
+  
 }
 
 
