@@ -7,3 +7,6 @@ J'améliorerai peu à peu mes skills sur ce site notamment sur le Javascript ave
 - Je vous laisse apprécier les images de démonstrations:
 ![enter image description here](https://i.ibb.co/TgPdjKC/Broke-Abroad-responsive.gif)
 
+- Partie Newsletter responsive d'un écran classique à un iphone 12 Mini
+
+![enter image description here](https://i.ibb.co/ZmngRKj/responsive-feature-newsletter-broke-and-abroad.gif)
