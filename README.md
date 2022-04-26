@@ -1,6 +1,6 @@
 **Challenge: refaire l'intégration d'un site**
 
-L'idée est de refaire l'intégration sur site web [https://www.brokeandabroad.com/](Broke%20&%20Abroad), tout en respectant l'aspect responsive visible ci-dessous.
+L'idée est de refaire l'intégration sur ce site web [https://www.brokeandabroad.com/](Broke%20&%20Abroad), tout en respectant l'aspect responsive visible ci-dessous.
 
 J'améliorerai peu à peu mes skills sur ce site notamment sur le Javascript avec le menu burger sur la droite.
 
