@@ -202,6 +202,72 @@ ul {
     margin-bottom: -5px;
 }
 
+/* Zone de recherche */
+
+/* top parent */
+.container-search {
+    /* position */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+    /* deco */
+    background-color: var(--violet);
+    
+    
+    
+}
+#where, #price, #when {
+    height: 47px;
+    padding-left: 10px;
+    margin-right: 10px;
+    background-color: var(--violet);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    cursor: pointer;
+}
+
+.slogan-search {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 400px;
+    margin-right: 70px;
+}
+
+.fa-chevron-down {
+    margin-left: 50px;
+    padding-right: 10px;
+}
+
+#searchSubmit {
+
+     /* deco */
+     background-color: var(--orange);
+     border: var(--calendar);
+     border-radius: 3px;
+     padding: 14px;
+     height: 50px;
+     cursor: pointer;
+ 
+     /* fonts */
+     font-family: 'Rubik', sans-serif;
+     font-weight: 700;
+     color: white;    
+     text-transform: uppercase;
+
+    
+}
+
+#searchSubmit:hover {
+    transition: 0.3s;
+    background-color: var(--lightorange);
+}
+
+
 
 
 /*---------------------------------[ RESPONSIVE ]---------------------------------*/
@@ -254,11 +320,6 @@ ul {
     }
   
 }
-
-
-
-
-
 /* deskstop */
 @media (min-device-width: 1025px) {
     button.burger-nav {
