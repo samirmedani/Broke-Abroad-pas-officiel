@@ -3,7 +3,11 @@
     --violet: #353472;
     --bleu: #F7FAFD;
     --orange: #FFA318;
+    --lightorange: #FAC77A;
     --calendar: #FDAE5C;
+    --newsletterbackground: #6A94BB;
+    
+    
     
 
 }
@@ -15,9 +19,8 @@ header {
 }
 
 body {
-    background-image: url(/img/BROKE-AND-ABROAD-SENEGAL.jpg)
+    font-family: 'Rubik', sans-serif;
 }
-
 
 /* top container left */
 
@@ -100,18 +103,93 @@ ul {
 
 /* --------------- */
 
+/* Newsletter */
 
-.carousel-items {
+.newsletter {
     display: flex;
-    overflow-x: scroll;
-    padding: 1rem 0;
+    justify-content: center;
+    
+    background-color: var(--newsletterbackground);
+    padding: 100px 100px;
 }
-.carousel-item {
-    margin-left: 1rem;
+
+.formNewsletter { 
+    display: flex;
+}
+
+.ncInput {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.form-check {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+   
+    
+}
+
+#subscribe:hover {
+    transition: 0.3s;
+    background-color: var(--lightorange);
+}
+
+.formcheck {
+
+    margin-top: 10px;
+    margin-right: 30px;
 }
 
 
 
+#mailInput {
+    padding: 10px;
+    padding-right: 150px;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white; 
+    font-size: 16px;
+    font-weight: 300;
+    background-color: var(--newsletterbackground);
+    margin-right: 2em;
+    
+
+}
+
+#mailInput:focus {
+    outline: none;
+}
+
+#subscribe {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: var(--orange);
+    border: var(--calendar);
+    border-radius: 3px;
+    padding: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 50px;
+}
+
+
+.sentence-newsletter {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 2em;
+    margin-top: 11px;
+}
+
+.tempImg img {
+    margin-bottom: -5px;
+}
 
 
 
