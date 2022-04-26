@@ -6,10 +6,6 @@
     --lightorange: #FAC77A;
     --calendar: #FDAE5C;
     --newsletterbackground: #6A94BB;
-    
-    
-    
-
 }
 
 header {
@@ -106,45 +102,70 @@ ul {
 /* Newsletter */
 
 .newsletter {
+    /* position */
     display: flex;
     justify-content: center;
-    
+    width: 100%;
+
+    /* deco */
     background-color: var(--newsletterbackground);
     padding: 100px 100px;
-
-    width: 100%;
+    
 }
 
 .formNewsletter { 
+    /* position */
     display: flex;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
+}
+
+/* Slogan de newsletter */
+.sentence-newsletter {
+    /* position */
+    margin-right: 2em;
+    margin-top: 11px;
+
+    /* font */
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
     
 }
 
-
-
-
-
+/* Coche et son texte */
 .formcheck {
-
+    /* position */
     margin-right: 2em;
+
+    /* deco */
     width: 380px;
 }
-
-
-
 .form-check {
+    /* font */
     font-size: 14px;
     font-weight: 400;
     font-family: 'Rubik', sans-serif;
-    color: white;
-    
-    
-   
-    
+    color: white;  
 }
 
+/* Bouton submit et son hover */
+#subscribe {
+
+    /* deco */
+    background-color: var(--orange);
+    border: var(--calendar);
+    border-radius: 3px;
+    padding: 14px;
+    height: 50px;
+    cursor: pointer;
+
+    /* fonts */
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: white;    
+    text-transform: uppercase;
+}
 #subscribe:hover {
     transition: 0.3s;
     background-color: var(--lightorange);
@@ -152,52 +173,31 @@ ul {
 
 
 
-
+/* Input email */
 #mailInput {
-
+    /* position */
     margin-right: 2em;
 
-
+    /* deco */
     padding: 10px;
     padding-right: 150px;
     border: 1px solid white;
     border-radius: 3px;
-    color: white; 
+    background-color: var(--newsletterbackground);
+
+    /* fonts */
     font-size: 16px;
     font-weight: 300;
-    background-color: var(--newsletterbackground);
-    
-    
-
+    color: white; 
 }
 
 #mailInput:focus {
     outline: none;
 }
 
-#subscribe {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 700;
-    color: white;
-    background-color: var(--orange);
-    border: var(--calendar);
-    border-radius: 3px;
-    padding: 14px;
-    text-transform: uppercase;
-    cursor: pointer;
-    height: 50px;
-}
+/* ---------------------- */
 
-
-.sentence-newsletter {
-    color: white;
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    margin-right: 2em;
-    margin-top: 11px;
-}
-
+/* Correction d'un espacement non voulu */
 .tempImg img {
     margin-bottom: -5px;
 }
@@ -214,7 +214,7 @@ ul {
 /* smartphone */
 @media screen and (min-width: 0px) and (max-width: 1024px) {
 
-  
+    /* Menu burger de navigation */
     .burger-nav {
         width: 80px;
         background: none;
@@ -231,13 +231,12 @@ ul {
         display: none;
     } 
 
+
+    /* Newsletter */
     .formNewsletter { 
         display: flex;
         flex-direction: column;
-        
-        
     }
-
     #mailInput  {
         margin-bottom: 10px;
         width: 100%;
@@ -246,7 +245,6 @@ ul {
         margin-bottom: 15px;
         width: 100%;
     }
-
     .sentence-newsletter {
         margin-bottom: 10px;
     }
