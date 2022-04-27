@@ -6,6 +6,7 @@
     --lightorange: #FAC77A;
     --calendar: #FDAE5C;
     --newsletterbackground: #6A94BB;
+    --grayletter: #7A838B;
 }
 
 header {
@@ -267,6 +268,64 @@ ul {
 }
 
 
+/* H1 des meilleurs offres de voyage */
+.container-titleslogan {
+    margin: 0 auto;
+    text-align: center;
+}
+.bestplan{
+    margin-bottom: 1em;
+}
+.bestplan-slogan {
+    color: #7A838B;
+}
+/* ----------------------------------- */
+
+/* box type */
+
+.travel-box {
+    /* border: 1px solid red; */
+    width: 450px;
+    border-radius: 10px;
+    transition: 00.3s;
+}
+.travel-box:hover {
+    box-shadow: 1px 1px 25px gray;
+    transition: 00.3s;
+}
+
+.travel-top img {
+    width: 100%;
+
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+    
+}
+
+
+.destination {
+    margin-right: 10px;
+}
+
+.container-destination {
+    display: flex;
+    align-items: center;
+}
+
+.container-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-calendar-days {
+    color: var(--calendar);
+    margin-right: 5px;
+}
+
+.fa-clock {
+    background-color: white;
+}
+
 
 
 /*---------------------------------[ RESPONSIVE ]---------------------------------*/
@@ -334,12 +393,6 @@ ul {
     #searchSubmit  {
         width: 50%;
     }
-
-
-
- 
-
-    
 
 
   
