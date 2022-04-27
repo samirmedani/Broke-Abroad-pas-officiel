@@ -207,10 +207,8 @@ ul {
 /* top parent */
 .container-search {
     /* position */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
+    padding: 50px;
+    text-align: center;
 
     /* deco */
     background-color: var(--violet);
@@ -219,6 +217,7 @@ ul {
     
 }
 #where, #price, #when {
+    
     height: 47px;
     padding-left: 10px;
     margin-right: 10px;
@@ -318,6 +317,31 @@ ul {
     #subscribe {
         width: 100%;
     }
+
+    .container-search {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #where, #price, #when, .slogan-search {
+        margin-bottom: 1em;
+        display:  flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #searchSubmit  {
+        width: 50%;
+    }
+
+
+
+ 
+
+    
+
+
   
 }
 /* deskstop */
