@@ -288,7 +288,26 @@ ul {
     width: 450px;
     border-radius: 10px;
     transition: 00.3s;
+    height: auto;
+    position: relative;
+    margin: 15px;
 }
+
+
+.super-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.travel-bottom {
+    margin: 0 auto;
+    width: 400px;
+}
+
+
 .travel-box:hover {
     box-shadow: 1px 1px 25px gray;
     transition: 00.3s;
@@ -310,7 +329,78 @@ ul {
 .container-destination {
     display: flex;
     align-items: center;
+    margin-top: 16px;
+    margin-bottom: 7px;
 }
+
+.container-duration {
+    
+   
+    
+}
+
+.container-time {
+    margin-top: 13px;
+    margin: 0 auto;
+}
+
+
+
+.description-travel {
+    color: var(--grayletter);
+}
+
+
+
+.fa-clock-o {
+    margin-right: 5px;
+}
+.duration {
+    color: var(--grayletter)
+}
+
+/* Les tags dans les boites de voyage */
+
+.price-tag {
+    
+    background-color: var(--violet);
+    padding: 10px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    
+
+}
+
+.vip-tag {
+
+    background-color: var(--orange);
+    padding: 10px 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+    position: absolute;
+    top: 16px;
+    right: 16px
+
+}
+
+
+
+
 
 .container-time {
     display: flex;
@@ -324,6 +414,20 @@ ul {
 
 .fa-clock {
     background-color: white;
+}
+
+.vol {
+    margin-top: 5px;
+    background-color: var(--violet);
+    padding: 3px 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 
@@ -392,6 +496,10 @@ ul {
 
     #searchSubmit  {
         width: 50%;
+    }
+
+    .travel-box {
+        width: 350px;
     }
 
 
