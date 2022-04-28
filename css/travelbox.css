@@ -1,0 +1,132 @@
+/* Container ayant toutes les box */
+.super-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ---------------------------- */
+.travel-box {
+    /* border: 1px solid red; */
+    width: 450px;
+    border-radius: 10px;
+    transition: 00.3s;
+    height: auto;
+    position: relative;
+    margin: 15px;
+}
+
+.travel-box:hover {
+    box-shadow: 1px 1px 25px gray;
+    transition: 00.3s;
+}
+/* ---------------------------- */
+
+
+.travel-bottom {
+    margin: 0 auto;
+    width: 400px;
+}
+.travel-top img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;   
+}
+.destination {
+    margin-right: 10px;
+}
+.container-destination {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 7px;
+}
+.container-time {
+    margin-top: 13px;
+    margin: 0 auto;
+}
+
+.description-travel {
+    color: var(--grayletter);
+}
+
+.fa-clock-o {
+    margin-right: 5px;
+}
+.duration {
+    color: var(--grayletter)
+}
+
+/* Les tags dans les boites de voyage */
+
+.price-tag {
+    /* position */
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    /* deco */
+    background-color: var(--violet);
+    padding: 10px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    /* fonts */
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.vip-tag {
+    /* position */
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    /* deco */
+    background-color: var(--orange);
+    padding: 10px 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    /* fonts */
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.vol {
+    /* position */
+    margin-top: 5px;
+    /* deco */
+    background-color: var(--violet);
+    padding: 3px 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    /* fonts */
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.container-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FontAwesome */
+
+.fa-calendar-days {
+    /* position */
+    margin-right: 5px;
+    /* deco */
+    color: var(--calendar);
+    
+}
+
+.fa-clock {
+    background-color: white;
+}

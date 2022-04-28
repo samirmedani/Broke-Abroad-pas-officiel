@@ -1,0 +1,82 @@
+/*---------------------------------[ RESPONSIVE ]---------------------------------*/
+
+/* Desktop: 1024px */
+/* Tablet: 600px -> 1024px */
+/* Mobile: 320 -> 600px  */
+
+
+/* smartphone */
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+
+    /* Menu burger de navigation */
+    .burger-nav {
+        width: 80px;
+        background: none;
+        border: none;
+    }
+
+    .burger-nav i {
+        font-size: x-large;
+        
+    }
+   
+
+    nav, .socialnetwork {
+        display: none;
+    } 
+
+
+    /* Newsletter */
+    .formNewsletter { 
+        display: flex;
+        flex-direction: column;
+    }
+    #mailInput  {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .formcheck {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .sentence-newsletter {
+        margin-bottom: 10px;
+    }
+
+    #subscribe {
+        width: 100%;
+    }
+
+    .container-search {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #where, #price, #when, .slogan-search {
+        margin-bottom: 1em;
+        display:  flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #searchSubmit  {
+        width: 50%;
+    }
+
+    .travel-box {
+        width: 350px;
+        
+    }
+
+
+  
+}
+/* deskstop */
+@media (min-device-width: 1025px) {
+    button.burger-nav {
+        display: none;
+        
+
+    } 
+}

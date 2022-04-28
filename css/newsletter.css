@@ -1,0 +1,95 @@
+/* Newsletter */
+
+.newsletter {
+    /* position */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    /* deco */
+    background-color: var(--newsletterbackground);
+    padding: 100px 100px;
+    
+}
+
+.formNewsletter { 
+    /* position */
+    display: flex;
+    margin: 0 auto;  
+}
+
+/* Slogan de newsletter */
+.sentence-newsletter {
+    /* position */
+    margin-right: 2em;
+    margin-top: 11px;
+
+    /* font */
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+
+/* Coche et son texte */
+.formcheck {
+    /* position */
+    margin-right: 2em;
+
+    /* deco */
+    width: 380px;
+}
+.form-check {
+    /* font */
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    color: white;  
+}
+
+/* Bouton submit et son hover */
+#subscribe {
+
+    /* deco */
+    background-color: var(--orange);
+    border: var(--calendar);
+    border-radius: 3px;
+    padding: 14px;
+    height: 50px;
+    cursor: pointer;
+
+    /* fonts */
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: white;    
+    text-transform: uppercase;
+}
+#subscribe:hover {
+    transition: 0.3s;
+    background-color: var(--lightorange);
+}
+
+
+
+/* Input email */
+#mailInput {
+    /* position */
+    margin-right: 2em;
+
+    /* deco */
+    padding: 10px;
+    padding-right: 150px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: var(--newsletterbackground);
+
+    /* fonts */
+    font-size: 16px;
+    font-weight: 300;
+    color: white; 
+}
+
+#mailInput:focus {
+    outline: none;
+}
