@@ -1,29 +1,13 @@
-/* --------------- */
 
-
-/* ---------------------- */
-
-/* Correction d'un espacement non voulu */
-.tempImg img {
-    margin-bottom: -5px;
-}
-
-/* Zone de recherche */
-
-/* top parent */
 .container-search {
     /* position */
     padding: 50px;
     text-align: center;
 
     /* deco */
-    background-color: var(--violet);
-    
-    
-    
+    background-color: var(--violet);      
 }
 #where, #price, #when {
-    
     height: 47px;
     padding-left: 10px;
     margin-right: 10px;
@@ -72,16 +56,8 @@
     background-color: var(--lightorange);
 }
 
-
-/* H1 des meilleurs offres de voyage */
 .container-titleslogan {
     margin: 0 auto;
     text-align: center;
 }
-.bestplan{
-    margin-bottom: 1em;
-}
-.bestplan-slogan {
-    color: #7A838B;
-}
-/* ----------------------------------- */
+

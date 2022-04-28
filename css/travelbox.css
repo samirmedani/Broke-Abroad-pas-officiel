@@ -1,3 +1,16 @@
+.bestplan{
+    margin-top: 100px;
+    margin-bottom: 1em;
+}
+.bestplan-slogan {
+    color: #7A838B;
+
+}
+
+
+
+
+
 /* Container ayant toutes les box */
 .super-container {
     display: flex;
@@ -44,6 +57,7 @@
 .container-time {
     margin-top: 13px;
     margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 .description-travel {
@@ -53,6 +67,9 @@
 .fa-clock-o {
     margin-right: 5px;
 }
+
+
+
 .duration {
     color: var(--grayletter)
 }
@@ -113,6 +130,8 @@
 }
 
 .container-time {
+    
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }

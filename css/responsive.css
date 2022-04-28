@@ -30,15 +30,20 @@
     .formNewsletter { 
         display: flex;
         flex-direction: column;
+        width: 350px;
     }
     #mailInput  {
         margin-bottom: 10px;
         width: 100%;
     }
     .formcheck {
-        margin-bottom: 15px;
         width: 100%;
+        margin-bottom: 15px;   
     }
+    .form-check {
+        border: 1px solid red;
+    }
+
     .sentence-newsletter {
         margin-bottom: 10px;
     }
@@ -64,9 +69,35 @@
         width: 50%;
     }
 
-    .travel-box {
+    .travel-box, .travel-bottom {
         width: 350px;
-        
+    }
+
+    .container-destination {
+        display: flex;
+        justify-content: center;
+    }
+
+    .destination {
+        font-size: 26px;
+    }
+
+    .container-time {
+        display: flex;
+        justify-content: space-between;
+       
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .duration, .date, .fa-calendar-days, .fa-clock-o {
+        font-size: 0.9em;
+    }
+
+    .description-travel {
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
     }
 
 

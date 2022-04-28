@@ -4,7 +4,7 @@
     /* position */
     display: flex;
     justify-content: center;
-    width: 100%;
+    
 
     /* deco */
     background-color: var(--newsletterbackground);
@@ -38,7 +38,7 @@
     margin-right: 2em;
 
     /* deco */
-    width: 380px;
+    width: 400px
 }
 .form-check {
     /* font */
